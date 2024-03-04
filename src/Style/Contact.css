@@ -1,0 +1,47 @@
+.contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.contact .se-contact{
+    margin: 20px 120px;
+    text-align: left;
+}
+.se-contact .social-media{
+    margin: 7rem 0;
+}
+.se-contact .social-media p{
+    color: rgb(74, 73, 73);
+    font-weight: 100;
+}
+.se-contact .social-media .icon{
+    margin-right: 20px;  
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   
+}
+.contact .msg{
+    margin: 0px 120px;
+}
+.contact .msg input,textarea{
+    border: 2px solid black;
+    border-radius:3px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: transparent;
+}
+.contact .msg button{
+    border: 1px solid #8950c1;
+    background-color: #8950c1;
+    border-radius: 7px;
+    font-size: 15px ;
+    color: rgb(255, 255, 255);
+    padding: 10px 12px;
+    cursor: pointer;
+}
+.contact button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #8950c1;
+}
