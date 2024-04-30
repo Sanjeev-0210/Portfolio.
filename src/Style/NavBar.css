@@ -163,11 +163,11 @@ span{
         margin: 5px;
         text-decoration: none;
         color: black;
-        font-size: 18px;
+        font-size: 14px;
     }
    
     .links-800px .link:hover{
-        background-color: rgb(200, 154, 204);
+        background-color: rgb(255, 255, 255);
         border-radius: 10%;
     }
 }
