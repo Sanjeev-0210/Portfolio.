@@ -38,8 +38,8 @@ const Projects = () => {
             <p>05</p>
             <h3>Portfolio.</h3>
             <p>A responsive simple Portfolio website using ReactJS.</p>
-            <button id='btn'>Read More<ArrowRightAltIcon/></button>
-            </div>
+            <a href="https://sanjeev0210c-portfolio.netlify.app/" target="_blank" rel="noreferrer"><button id='btn'>Read More<ArrowRightAltIcon/></button>
+            </a></div>
             <div className="container box6">
             <p>06</p>
             <h3>Bank Transaction</h3>

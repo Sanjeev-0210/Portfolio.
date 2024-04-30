@@ -48,21 +48,21 @@
 
 @media (max-width:1200px) {
     .contact{
-        display: block;
+        display: flex;
         align-items: center;
         margin: 40px;
     }
     .contact .se-contact{
-        margin: 30px 20px;
+        margin: 30px 90px;
         text-align: left;
         font-size: 16px;
     }
     .se-contact .social-media{
         margin: 2rem 0;
-        position: absolute;
+        /* position: absolute;
         top: 14vh;
         right: 8vw;
-        line-height: 1rem;
+        line-height: 1rem; */
     }
     .se-contact .social-media p{
         color: rgb(74, 73, 73);
@@ -105,13 +105,7 @@
         text-align: left;
         font-size: 14px;
     }
-    .se-contact .social-media{
-        margin: 2rem 0;
-        position: absolute;
-        top: 14vh;
-        right: 6vw;
-        
-    }
+   
     .se-contact .social-media p{
         color: rgb(74, 73, 73);
         font-weight: 100;
