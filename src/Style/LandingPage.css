@@ -1,0 +1,16 @@
+.landingpage{
+    background-image: url(../Images/Background.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+   display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+
+}
+@media (max-width:1200px) {
+    .landingpage{
+        display: block;
+    }
+}

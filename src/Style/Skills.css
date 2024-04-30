@@ -1,0 +1,133 @@
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#skill span{
+    position: relative;
+    top: -90px;
+    margin-right: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    /* border-bottom: 2px solid rgb(184, 182, 182); */
+}
+#skill span::before,#skill span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background: #a265a9;
+}
+#skill span::after{
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+}
+.se-content{   
+    text-align: left;
+    width: 40%;
+    font-size: 20px;
+}
+.se-content p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.skill-score{
+    border: 3px double #d09cd5;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    box-shadow: 0 0 5px rgb(188, 184, 184);
+}
+.skill-score h1{
+    font-weight: 100;
+    font-size: 50px;
+}
+.b1 h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.b1{
+    display: block;
+    text-align: left;
+    margin: 20px;
+}
+@media (max-width:1200px) {
+    .skills{
+        display: block;
+        justify-content: space-around;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 40px;
+    }
+    .se-content{   
+        text-align: left;
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 50px;
+        line-height: 1.8rem;
+    }
+    .se-content h3{
+        font-size: 25px;
+    }
+    .skill-score h1{
+        font-weight: 100;
+        font-size: 45px;
+    }
+    .b1 h2{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .skill-score{
+        border: 3px double #d09cd5;
+        border-radius: 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 150px 150px;
+        box-shadow: 0 0 5px rgb(188, 184, 184);
+        width: min-content;
+       position: absolute;
+       left: 30vw;
+    }
+    .b1{
+        display: inline;
+        text-align: left;
+        margin: 20px;
+    }
+}
+@media (max-width:700px){
+    .se-content{   
+        text-align: left;
+        width: 100%;
+        font-size: 17px;
+        margin-bottom: 50px;
+        line-height: 1.6rem;
+    }
+    .se-content h3{
+        font-size: 22px;
+    }
+    .skill-score h1{
+        font-weight: 100;
+        font-size: 40px;
+    }
+    .b1 h2{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .skill-score{
+        border: 3px double #d09cd5;
+        border-radius: 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 130px 130px;
+        box-shadow: 0 0 5px rgb(188, 184, 184);
+        width: min-content;
+       position: absolute;
+       left: 20vw;
+      
+    }
+}

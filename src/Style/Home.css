@@ -1,0 +1,126 @@
+
+.home{
+    margin-left: 100px;
+    margin-bottom: 20vh;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+.home img{
+    height: 500px;
+    width: 550px;
+    /* border-radius: 50%; */
+    position: absolute;
+    bottom: 22vh;
+    left: 125vh;
+    /* transform: translateX(10vh); */
+    /* animation: animate 3s; */
+}
+/* @keyframes animate{
+    from{
+        position: relative;
+        left: 0;
+        height: 100px;
+        width: 100px;
+        margin-left: 0;
+    }
+    to{
+        margin-left: 0vw;
+    }
+} */
+.content p{
+    width: 50vw;
+    font-size: 22px;
+}
+.content span{
+    display: block;
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #7f55c9;
+}
+.content h2{
+    font-size: 45px;
+    font-weight: 500;
+    margin: 10px 0 60px;
+}
+.btn button{
+    padding: 8px 12px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(56, 55, 55);
+    font-weight: lighter;
+    border: 1px solid gray;
+    background-color: #d5c8e2;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+    /* position: absolute;
+    left: 20vw;
+    bottom: 20vh; */
+    /* animation: animate-btn 2s; */
+}
+/* @keyframes animate-btn {
+    from{
+        position: absolute;
+        bottom: 0;
+    }
+} */
+.btn button:hover{
+    transform: scale(1.01);
+    transition: 1s;
+}
+.btn button:hover #arrow{
+    transform: translateX(4px);
+    transition: 1s;
+}
+/* .media{
+    margin-left: 25vw;
+     display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 18vh;
+    z-index: 1; 
+    animation: ani 1s;
+} */
+/* @keyframes ani {
+    from{
+        position: relative;
+        right: 0;
+        height: 1px;
+        width: 100px;
+        margin-right: 0;
+    }
+    to{
+        right: 1vw;
+    } 
+} */
+.media .icon{
+    margin: 20px 0;
+    color: rgb(42, 41, 41);
+   
+}
+.media .icon:hover{
+    transform: scale(1.08);
+}
+@media (max-width:1200px),(max-width:800px) {
+    .home{
+       position: relative;
+       top: 14vh;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+}

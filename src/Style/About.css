@@ -1,0 +1,57 @@
+.about{
+   font-size: 18px;
+   line-height: 2rem;
+   text-align: left;
+   width: 75%;
+   position: relative;
+   top: -50px;
+   left: 100px;
+}
+.about p{
+    margin: 45px 0;
+}
+.about a{
+    text-decoration: none;
+}
+.about button{
+    border: 1px solid #8950c1;
+    background-color: #8950c1;
+    border-radius: 7px;
+    font-size: 15px ;
+    color: rgb(255, 255, 255);
+    padding: 10px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+.about button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #8950c1;
+}
+@media (max-width:1200px) {
+    .about{
+        font-size: 17px;
+        line-height: 2rem;
+        text-align: left;
+        width: 75%;
+        position: relative;
+        top: 0px;
+        left: 100px;
+     }
+     .about p{
+        margin: 30px 0;
+    }
+}
+@media (max-width:800px) {
+    .about{
+        font-size: 16px;
+        line-height: 1.7rem;
+        text-align: left;
+        width: 75%;
+        position: relative;
+        top: 0px;
+        left: 60px;
+     }
+}
