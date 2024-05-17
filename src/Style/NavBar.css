@@ -67,7 +67,8 @@ span{
         z-index: 5;
     }
     .navbar img{
-        height: 60px;
+        height: 65px;
+        margin-top: 20px;
         border-radius: 50%;
         cursor: pointer;
     }
@@ -87,7 +88,7 @@ span{
         font: 1em sans-serif;
         
     }
-    .navbar a:hover{
+    .navbar .links a:hover{
         color: black;
         border-bottom: 1px solid black;
     }
@@ -114,7 +115,7 @@ span{
         height: 60px;
         border-radius: 50%;
         position: absolute;
-        top: 28px;
+        top: 5px;
         left: 10px;
         cursor: pointer;
     }
@@ -124,6 +125,9 @@ span{
         position: absolute;
         top: 20px;
         right: 20px;
+        /* cursor: pointer; */
+    }
+    #icon{
         cursor: pointer;
     }
     #menu:hover .links{
