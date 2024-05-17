@@ -34,8 +34,8 @@ const NavBar = () => {
     
     return ( 
         <div className="navbar">
-            <div><img src={profile} alt=""/>
-            <p>Sanjeev</p></div>
+            <div><Link to="/home"><img src={profile} alt=""/></Link>
+            <Link to="/home"><p>Sanjeev</p></Link></div>
             <div><p id='menu' onClick={menudrop}>
            
       <Button variant="danger" ref={target} onClick={() => setShow(!show)}>
