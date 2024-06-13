@@ -5,24 +5,24 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import MenuIcon from '@mui/icons-material/Menu';
+// import MenuIcon from '@mui/icons-material/Menu';
 
-import { useState, useRef } from 'react';
-import Button from 'react-bootstrap/Button';
-import Overlay from 'react-bootstrap/Overlay';
+// import { useState, useRef } from 'react';
+// import Button from 'react-bootstrap/Button';
+// import Overlay from 'react-bootstrap/Overlay';
 
 
 const NavBar = () => {
 
 
 
-  const [show, setShow] = useState(false);
-  const target = useRef(null);
+  // const [show, setShow] = useState(false);
+  // const target = useRef(null);
 
 
 
 
-  let menudrop = () => {
+ // let menudrop = () => {
     // let links=document.getElementsByClassName("links")
     // if(links.style.display=='none'){
     //     links.style.display='block';
@@ -30,7 +30,7 @@ const NavBar = () => {
     // else{
     //     links.style.display='none';
     // }
-  }
+ // }
 
   return (
     <div className="navbar">
