@@ -147,7 +147,7 @@ span{
         flex-direction: row;  
         text-decoration: none;
         color: rgb(74, 73, 73);
-        font: 1.01em sans-serif;
+        font: 0.95em sans-serif;
         position: absolute;
         right: 10px;
         top: 38px;
@@ -155,7 +155,7 @@ span{
         z-index: 5;
     }
     .links a{
-        margin: 10px;
+        margin: 7px;
     }
     .links-800px{
         display: flex;
