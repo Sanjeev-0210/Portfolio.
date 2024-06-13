@@ -129,6 +129,7 @@ span{
     }
     #icon{
         cursor: pointer;
+        background-color: transparent;
     }
     #menu:hover .links{
         display: block;
@@ -141,29 +142,29 @@ span{
         /* margin: 25px 20px; */
         /* margin-left: 20vw; */
         /* display: none; */
-        display: none;
-        padding: 10px;
-        flex-direction: column;  
+        display: flex;
+        padding: 0px;
+        flex-direction: row;  
         text-decoration: none;
         color: rgb(74, 73, 73);
-        font: 1em sans-serif;
+        font: 1.01em sans-serif;
         position: absolute;
-        right: 0px;
-        top: 100px;
-        background-color: #ddc3d8;
+        right: 10px;
+        top: 38px;
+        /* background-color: #ddc3d8; */
         z-index: 5;
     }
     .links a{
-        margin: 20px;
+        margin: 10px;
     }
     .links-800px{
         display: flex;
         flex-direction: row;
         text-decoration: none;
-        color: white;
+        /* color: white;
         background-color: #ddc3d800;
         height: 100%;
-        padding: 1px;
+        padding: 1px; */
 
 
     }

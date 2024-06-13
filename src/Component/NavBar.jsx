@@ -36,10 +36,12 @@ const NavBar = () => {
     <div className="navbar">
       <div><Link to="/home"><img src={profile} alt="" /></Link>
         <Link to="/home"><p>Sanjeev</p></Link></div>
-      <div><p id='menu' onClick={menudrop}>
+      <div>
+        {/* <p id='menu' onClick={menudrop}><MenuIcon id="icon"/></p> */}
+        {/* <p id='menu' onClick={menudrop}>
 
         <Button variant="danger" ref={target} onClick={() => setShow(!show)}>
-          <MenuIcon id="icon"/>
+          <DragHandleIcon id="icon"/>
         </Button>
         <Overlay target={target.current} show={show} placement="left">
           {({
@@ -57,6 +59,7 @@ const NavBar = () => {
                 backgroundColor: 'transparent',
                 padding: '2px 6px',
                 color: 'white',
+                border: 'none',
                 borderRadius: 3,
                 ...props.style,
               }}
@@ -71,7 +74,7 @@ const NavBar = () => {
               </div>
             </div>
           )}
-        </Overlay></p>
+        </Overlay></p> */}
         <div className="links">
 
           <Link to="/home" className='link'>Home</Link>
