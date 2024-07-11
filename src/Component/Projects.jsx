@@ -25,7 +25,7 @@ const Projects = () => {
             <p>03</p>
             <h3>Portfolio.</h3>
             <p>A responsive simple Portfolio website using ReactJS.</p>
-            <a href="https://sanjeev0210c-portfolio.netlify.app/" target="_blank" rel="noreferrer"><button id='btn'>Read More<ArrowRightAltIcon/></button>
+            <a href="https://sanjeev-0210c.netlify.app/" target="_blank" rel="noreferrer"><button id='btn'>Read More<ArrowRightAltIcon/></button>
             </a>
               </div>
             <div className="container box4">
